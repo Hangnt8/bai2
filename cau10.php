@@ -4,9 +4,9 @@
     function removeWhitespace($string) {
         return trim($string);
     }
-    $string = " lananh, xinchao!"; 
+    $string = " Hello, World! "; 
     $trimmedString = removeWhitespace($string);
-    echo "Original string: '" . $string . "'";
+    echo "Nhập vào: '" . $string . "'";
     echo "<br>";
-    echo "Trimmed string: '" . $trimmedString . "'";
+    echo "Kết quả: '" . $trimmedString . "'";
     ?>
